@@ -86,7 +86,7 @@ namespace Form1
                     {
                         txtNmae.Text = dr["Cus_name"].ToString();
                         txtContry.Text = dr["Country"].ToString();
-                        txtAge.Text = dr["Cus_id"].ToInt32();
+                        txtAge.Text = dr["Cus_id"].ToString();
                     }
                 }
                 else

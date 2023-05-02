@@ -42,7 +42,7 @@ namespace Form1
             try
             {
                 ds = GetAllCust();
-                DataSet row = ds.Tables["Customer"].NewRow();
+                DataRow row = ds.Tables["Customer"].NewRow();
                 row["Cus_id"] = txtId.Text;
                 row["Cus_name"] = txtNmae.Text;
                 row["Age"] = txtAge.Text;
